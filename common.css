@@ -140,6 +140,7 @@
     min-width: 150px;
     font-weight: bold;
     margin-right: 25px;
+    font-size: 16px;
 }
 .gray{
     color: var(--color-cutton-dark);
