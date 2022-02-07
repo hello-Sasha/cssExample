@@ -12,6 +12,7 @@
 }
 *{
     font-size: 20px;
+    line-height: 80%;
 }
 .black{
     color: var(--color-black);
@@ -43,8 +44,8 @@
     height: 20px;
     white-space: pre-wrap;
     line-height: 100%;
-    margin: 0px;
-    font-size: 25px;
+    /* margin: 0px;
+    font-size: 25px; */
   }
   .blockA-nav--logo img {
     justify-self: end;
