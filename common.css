@@ -10,6 +10,9 @@
    font-family: 'Dongle', sans-serif;
 
 }
+*{
+    font-size: 20px;
+}
 .black{
     color: var(--color-black);
 }
@@ -39,12 +42,15 @@
     grid-row: 1;
     height: 20px;
     white-space: pre-wrap;
+    line-height: 100%;
+    margin: 0px;
+    font-size: 25px;
   }
   .blockA-nav--logo img {
     justify-self: end;
   }
 .blockA-nav--links{
-    grid-column: 6/10;
+    grid-column: 6/12;
     grid-row: 1;
     font-size: medium;
     padding-top: 55px;
@@ -119,11 +125,12 @@
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 0;
+    line-height: 100%;
 }
 .blockA-heading--desc{
     line-height: 200%;
     word-spacing: 5px;
-    font-size: 17px;
+    /* font-size: 17px; */
 }
 .button{
     border-radius: 5px;
@@ -199,7 +206,7 @@
     margin-bottom: 5px;
 }
 .blockB-heading-text{
-    font-size: 18px;
+    /* font-size: 18px; */
     line-height: 1.6;
     margin-top: 0px;
 
@@ -223,7 +230,7 @@
 .blockB-title-icon-text{
     margin-top: 0;
     color: var(--color-dark-gray);
-    font-size: 17px;
+    /* font-size: 17px; */
 }
 .blockB-statisticBar{
     grid-column:1/15;
@@ -286,7 +293,7 @@
     row-gap: 5px;
     align-items: center;
     justify-items: center;
-    height: 850px;
+    /* height: 850px; */
 }
 .blockC-heading , .blockE-heading{
     text-align: center;
@@ -377,10 +384,11 @@
 .blockD-heading{
     grid-column: 1;
     grid-row: 1/5;
-    font-size: 40px;
     font-weight: normal;
     padding-left: 15%;
-
+}
+.blockD-heading-heading{
+    font-size: 40px;
 }
 .blockD-side{
     grid-column: 2;
@@ -417,6 +425,7 @@
 }
 .blockD-small-text{
     margin-top: 10px;
+    font-size: 18px;
 }
 .blockD-side-img{
     grid-column: 1;
@@ -631,6 +640,7 @@
         grid-column: 2/4;
         height: 20px;
         white-space: pre-wrap;
+        line-height: 100%;
     }
     .blockG-nav--logo img {
         justify-self: end;
@@ -643,9 +653,9 @@
 
 .blockG-nav--about{
     grid-row: 3;
-    grid-column: 2/5;
+    grid-column: 2/6;
     justify-self: start;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: normal;
     color: var(--color-gray);
     margin-left: 30px;
